@@ -1,0 +1,501 @@
+Farmer_ID,Farmer_Name,Age,Gender,Location,Crop_Type,Farm_Size_Acres,Irrigation_Type,Soil_Type,Season,Crop_Yield_Tonnes,Fertilizer_Used,Pesticide_Used,Annual_Income_USD,Rainfall_mm,Temperature_C,Market_Price_Per_Tonne,Farming_Experience_Years,Education_Level,Loan_Amount_USD
+1,Pooja,56,Female,Chennai,Cotton,84.85,Flood,Loam,Zaid,5.57,No,No,15393,953.95,19.75,1088.55,30,Higher Secondary,3085
+2,Anita,33,Male,Mumbai,Sugarcane,99.55,Sprinkler,Sandy,Zaid,5.21,No,Yes,13959,862.96,22.51,527.12,14,Postgraduate,952
+3,Suresh,44,Female,Patna,Rice,14.01,Sprinkler,Sandy,Kharif,2.4,No,Yes,16676,754.64,39.48,1486.94,31,Graduate,2274
+4,Ramesh,43,Male,Jaipur,Pulses,22.37,Drip,Loam,Zaid,1.65,Yes,Yes,4419,382.5,19.57,1228.98,7,Graduate,2461
+5,Preeti,36,Female,Ranchi,Vegetables,65.46,Drip,Sandy,Kharif,1.67,Yes,Yes,4758,586.93,26.69,198.06,18,Higher Secondary,390
+6,Anita,51,Male,Jaipur,Vegetables,38.14,Drip,Clay,Kharif,4.39,No,Yes,13001,790.62,38.47,1329.76,11,Secondary,4953
+7,Ajay,42,Female,Chennai,Fruits,6.95,Flood,Silt,Rabi,1.65,No,No,9484,1282.47,32.46,690.92,35,Postgraduate,2669
+8,Rahul,39,Female,Ranchi,Fruits,76.89,Flood,Sandy,Rabi,9.28,No,No,18885,1379.66,37.16,1097.6,1,Primary,4798
+9,Sunita,55,Female,Delhi,Maize,70.15,Drip,Sandy,Kharif,9.04,No,No,7325,258.73,37.12,1277.07,20,Graduate,1841
+10,Preeti,39,Male,Lucknow,Wheat,86.76,Flood,Silt,Kharif,6.42,No,Yes,14337,1201.67,39.58,1116.86,4,Postgraduate,3588
+11,Preeti,33,Female,Bhopal,Sugarcane,19.88,Flood,Silt,Rabi,5.67,Yes,Yes,3355,1440.91,19.24,600.47,22,Secondary,4873
+12,Anita,44,Male,Jaipur,Vegetables,2.11,Manual,Loam,Kharif,0.56,No,Yes,18371,1185.15,34.97,1186.95,24,Higher Secondary,1901
+13,Ajay,48,Male,Bhopal,Sugarcane,52.63,Drip,Sandy,Rabi,1.52,No,No,18720,361.49,26.14,771.32,25,Graduate,553
+14,Ramesh,30,Female,Ranchi,Sugarcane,12.53,Flood,Silt,Zaid,8.62,Yes,No,8036,303.6,38.24,1787.13,3,Primary,1251
+15,Ramesh,33,Male,Delhi,Rice,68.19,Sprinkler,Silt,Kharif,8.4,No,Yes,11255,1139.47,17.88,1164.22,20,Higher Secondary,1372
+16,Preeti,38,Male,Bhopal,Maize,56.62,Drip,Clay,Rabi,5.94,No,Yes,12254,1079.2,26.58,905.22,4,Primary,2242
+17,Meera,60,Female,Jaipur,Cotton,20.08,Drip,Sandy,Zaid,2.13,No,Yes,16175,1098.07,35.89,369.77,13,Primary,1714
+18,Ajay,52,Male,Mumbai,Wheat,58.13,Sprinkler,Silt,Zaid,8.61,No,Yes,10764,1041.39,16.84,145.31,28,Primary,4909
+19,Sunita,59,Female,Ranchi,Fruits,16.42,Flood,Clay,Zaid,2.0,Yes,Yes,6184,1226.55,38.77,148.74,3,Primary,4636
+20,Anita,25,Female,Pune,Cotton,51.51,Manual,Loam,Kharif,9.16,Yes,Yes,4276,680.67,37.07,1565.45,9,Postgraduate,3849
+21,Rohit,58,Female,Lucknow,Pulses,12.11,Manual,Silt,Kharif,1.89,No,No,17032,544.4,37.04,1687.98,10,Secondary,3067
+22,Suresh,38,Female,Lucknow,Cotton,17.83,Drip,Loam,Kharif,6.47,Yes,Yes,7537,1421.08,25.34,1945.78,33,Graduate,2844
+23,Ajay,31,Male,Mumbai,Fruits,79.82,Sprinkler,Silt,Zaid,8.87,Yes,Yes,14217,592.95,26.27,1935.3,15,Graduate,4375
+24,Sunita,59,Female,Ranchi,Cotton,78.21,Drip,Silt,Kharif,5.74,Yes,No,3586,1379.73,22.83,450.94,27,Graduate,4506
+25,Rohit,30,Female,Patna,Cotton,39.51,Drip,Clay,Zaid,3.85,Yes,Yes,9387,1079.37,15.11,1446.42,9,Graduate,2178
+26,Rahul,28,Male,Pune,Cotton,1.74,Sprinkler,Sandy,Kharif,3.94,Yes,Yes,6383,1143.05,31.57,869.85,18,Higher Secondary,4201
+27,Suresh,25,Female,Jaipur,Cotton,85.25,Sprinkler,Loam,Rabi,6.1,No,Yes,14975,1088.65,27.22,1252.18,32,Postgraduate,3503
+28,Anita,37,Male,Kolkata,Cotton,17.14,Drip,Sandy,Kharif,4.09,Yes,No,14716,299.88,18.42,1226.81,19,Graduate,2233
+29,Meera,47,Female,Patna,Wheat,30.83,Flood,Clay,Rabi,1.95,No,No,13294,936.46,34.05,921.11,5,Primary,3511
+30,Ramesh,34,Male,Patna,Fruits,36.15,Sprinkler,Loam,Zaid,7.89,Yes,No,7624,980.06,31.81,850.17,19,Higher Secondary,2299
+31,Suresh,59,Male,Kolkata,Wheat,10.33,Flood,Sandy,Kharif,6.38,No,No,16647,359.4,28.93,228.32,26,Primary,1517
+32,Ajay,27,Male,Jaipur,Cotton,93.59,Drip,Loam,Zaid,4.02,No,No,8220,723.31,15.88,565.21,20,Secondary,3535
+33,Suresh,52,Male,Chennai,Pulses,49.59,Manual,Loam,Kharif,3.95,No,No,8344,272.03,33.39,348.23,6,Secondary,328
+34,Anita,31,Female,Bhopal,Wheat,30.79,Sprinkler,Clay,Zaid,1.11,No,No,6916,1253.1,31.9,1167.34,20,Secondary,2734
+35,Preeti,40,Female,Lucknow,Fruits,83.42,Manual,Silt,Kharif,1.95,Yes,No,13272,846.08,18.89,1370.95,30,Primary,1933
+36,Suresh,56,Female,Kolkata,Rice,82.98,Sprinkler,Clay,Kharif,8.7,Yes,Yes,2646,877.22,21.95,347.89,3,Primary,3026
+37,Rohit,49,Male,Jaipur,Rice,94.23,Manual,Sandy,Zaid,3.64,No,Yes,7510,684.23,29.13,1028.42,7,Postgraduate,1178
+38,Rahul,27,Female,Jaipur,Vegetables,24.36,Flood,Sandy,Kharif,1.78,No,No,10075,1010.99,30.04,1416.42,6,Secondary,1811
+39,Rahul,37,Male,Delhi,Sugarcane,46.55,Sprinkler,Loam,Kharif,9.33,No,No,2550,1108.87,27.08,277.45,28,Postgraduate,370
+40,Ajay,44,Male,Ranchi,Fruits,41.2,Flood,Silt,Zaid,5.59,Yes,No,17231,283.25,22.22,697.87,23,Primary,1830
+41,Sunita,48,Male,Jaipur,Rice,50.52,Drip,Loam,Kharif,9.56,Yes,No,12198,1279.72,34.22,1530.94,16,Secondary,2982
+42,Rohit,47,Female,Ranchi,Cotton,85.03,Flood,Loam,Kharif,0.96,Yes,No,2811,277.49,19.14,1800.28,27,Graduate,4284
+43,Meera,40,Female,Mumbai,Sugarcane,15.48,Sprinkler,Sandy,Zaid,2.97,Yes,Yes,9734,967.9,28.41,1957.76,28,Primary,655
+44,Suresh,46,Male,Patna,Rice,90.19,Manual,Loam,Zaid,4.16,Yes,Yes,10443,869.97,24.57,667.9,35,Secondary,3060
+45,Suresh,57,Male,Patna,Vegetables,30.53,Drip,Loam,Rabi,2.66,Yes,No,16516,932.69,37.07,836.18,3,Secondary,2083
+46,Sunita,50,Female,Delhi,Wheat,91.34,Drip,Clay,Kharif,0.63,Yes,No,13813,620.51,21.05,1567.72,2,Postgraduate,2729
+47,Suresh,59,Male,Pune,Wheat,30.55,Manual,Sandy,Zaid,1.72,No,Yes,18251,476.36,26.05,882.82,28,Higher Secondary,1393
+48,Suresh,50,Male,Mumbai,Pulses,84.59,Drip,Sandy,Rabi,6.97,No,No,9954,644.87,26.95,1029.3,34,Primary,2444
+49,Ramesh,33,Male,Lucknow,Maize,44.87,Sprinkler,Silt,Zaid,1.23,No,Yes,15730,799.78,18.05,565.85,1,Higher Secondary,4218
+50,Sunita,55,Male,Chennai,Pulses,3.02,Sprinkler,Loam,Kharif,2.59,No,Yes,19086,1081.35,23.41,1440.25,10,Graduate,2269
+51,Meera,60,Female,Pune,Maize,51.23,Manual,Silt,Rabi,1.61,Yes,Yes,5525,334.94,31.08,1488.91,30,Higher Secondary,2248
+52,Meera,60,Female,Chennai,Wheat,19.94,Sprinkler,Loam,Rabi,7.68,Yes,No,12910,1067.26,24.04,317.01,11,Primary,2163
+53,Meera,42,Male,Kolkata,Fruits,17.43,Sprinkler,Loam,Kharif,1.18,No,No,11255,1098.63,23.69,1558.1,26,Postgraduate,1957
+54,Ramesh,44,Female,Kolkata,Wheat,54.12,Drip,Loam,Zaid,4.99,Yes,Yes,11410,881.89,31.72,841.23,24,Postgraduate,2362
+55,Meera,27,Male,Kolkata,Pulses,96.99,Flood,Sandy,Rabi,3.44,No,No,17939,245.27,16.15,331.62,6,Primary,3622
+56,Anita,33,Male,Patna,Sugarcane,26.34,Sprinkler,Loam,Rabi,8.66,No,No,9004,380.89,22.74,530.42,11,Higher Secondary,1509
+57,Sunita,59,Female,Mumbai,Pulses,91.13,Drip,Loam,Zaid,0.83,Yes,Yes,12832,1403.97,19.49,1674.4,6,Graduate,1403
+58,Preeti,58,Female,Kolkata,Cotton,59.21,Flood,Clay,Zaid,6.09,Yes,Yes,9635,864.38,30.48,1810.63,22,Higher Secondary,3631
+59,Ramesh,38,Male,Pune,Sugarcane,54.56,Flood,Silt,Kharif,5.03,Yes,No,10566,514.89,31.72,1650.23,32,Primary,3391
+60,Sunita,57,Male,Ranchi,Wheat,27.84,Sprinkler,Sandy,Rabi,5.44,Yes,No,4139,656.44,38.24,1563.13,20,Primary,4170
+61,Ramesh,36,Male,Ranchi,Fruits,76.06,Flood,Sandy,Kharif,7.61,Yes,No,19607,1253.56,19.76,582.79,11,Graduate,4280
+62,Ramesh,57,Male,Jaipur,Sugarcane,49.0,Sprinkler,Silt,Zaid,5.5,Yes,No,8969,264.66,29.73,1696.24,23,Secondary,3266
+63,Ramesh,25,Male,Ranchi,Cotton,34.56,Flood,Sandy,Rabi,2.51,No,Yes,8030,1117.29,26.16,1916.01,34,Secondary,2023
+64,Suresh,53,Female,Kolkata,Wheat,64.9,Manual,Clay,Zaid,4.58,No,No,17416,1108.01,29.6,1288.09,33,Graduate,1144
+65,Ramesh,54,Female,Chennai,Rice,76.19,Manual,Sandy,Rabi,7.19,No,Yes,18124,1306.59,38.91,1337.57,24,Graduate,3585
+66,Ramesh,43,Female,Jaipur,Rice,11.08,Manual,Clay,Zaid,1.54,Yes,Yes,18638,999.44,28.73,1483.71,19,Higher Secondary,3303
+67,Rahul,28,Female,Ranchi,Rice,47.09,Flood,Clay,Kharif,2.5,Yes,No,9796,1068.77,21.05,1091.31,9,Primary,4573
+68,Suresh,38,Female,Ranchi,Maize,60.43,Drip,Silt,Rabi,1.9,No,Yes,12888,775.68,31.57,963.69,17,Secondary,3382
+69,Rahul,48,Male,Mumbai,Pulses,55.82,Manual,Clay,Kharif,7.9,Yes,Yes,3562,220.55,19.11,321.57,19,Secondary,1045
+70,Ajay,39,Male,Chennai,Pulses,82.56,Flood,Clay,Kharif,5.78,No,Yes,16611,392.59,35.09,1913.04,20,Higher Secondary,2997
+71,Meera,54,Female,Kolkata,Wheat,39.49,Manual,Sandy,Kharif,6.32,Yes,Yes,3891,957.47,23.35,708.08,4,Secondary,4615
+72,Pooja,33,Female,Delhi,Wheat,63.07,Drip,Sandy,Rabi,7.2,Yes,Yes,13029,718.23,38.14,1948.69,11,Higher Secondary,576
+73,Rohit,34,Male,Jaipur,Vegetables,1.82,Sprinkler,Sandy,Zaid,9.44,Yes,Yes,16042,1295.26,25.22,785.28,14,Secondary,1515
+74,Preeti,37,Male,Delhi,Fruits,53.42,Sprinkler,Loam,Rabi,5.98,Yes,Yes,12808,609.32,39.91,1327.22,16,Primary,635
+75,Suresh,58,Male,Patna,Vegetables,32.39,Flood,Clay,Kharif,7.38,No,Yes,5531,677.12,34.9,1117.39,22,Secondary,1078
+76,Preeti,51,Female,Lucknow,Vegetables,18.33,Flood,Silt,Rabi,8.23,Yes,No,4151,818.21,15.31,1123.68,17,Graduate,4219
+77,Pooja,49,Male,Mumbai,Cotton,60.68,Sprinkler,Loam,Rabi,6.21,No,Yes,4317,1297.11,21.27,156.48,28,Primary,1627
+78,Sunita,49,Female,Kolkata,Pulses,88.67,Flood,Loam,Kharif,1.93,Yes,Yes,18994,1341.96,25.56,1414.86,32,Graduate,689
+79,Sunita,34,Male,Chennai,Maize,92.74,Manual,Clay,Kharif,6.56,Yes,Yes,5087,1173.51,35.57,1053.76,26,Primary,1200
+80,Rahul,36,Female,Mumbai,Rice,6.23,Manual,Silt,Rabi,1.1,Yes,Yes,4450,1348.67,30.46,1318.89,20,Secondary,3362
+81,Meera,54,Male,Patna,Sugarcane,51.14,Sprinkler,Silt,Kharif,5.87,No,Yes,8529,379.53,37.35,800.54,24,Primary,4954
+82,Rohit,39,Female,Mumbai,Wheat,53.43,Manual,Sandy,Rabi,9.99,Yes,No,2907,788.81,34.48,445.22,14,Secondary,751
+83,Ramesh,35,Female,Bhopal,Rice,3.77,Drip,Sandy,Zaid,6.81,No,No,9161,479.7,29.82,1384.0,25,Primary,2603
+84,Ajay,38,Male,Ranchi,Sugarcane,47.42,Drip,Clay,Kharif,0.56,No,Yes,2653,553.33,16.04,901.32,16,Higher Secondary,417
+85,Preeti,25,Female,Jaipur,Fruits,25.82,Drip,Loam,Kharif,6.66,No,Yes,12120,321.34,37.07,1522.82,1,Primary,1730
+86,Sunita,29,Female,Pune,Fruits,21.9,Flood,Loam,Zaid,7.84,No,No,17072,559.01,18.97,461.93,5,Higher Secondary,3578
+87,Preeti,33,Male,Delhi,Sugarcane,58.43,Manual,Silt,Zaid,4.69,Yes,Yes,8371,343.82,25.19,535.35,7,Graduate,4238
+88,Ajay,38,Female,Patna,Maize,81.64,Flood,Sandy,Rabi,4.57,Yes,No,6820,576.62,21.98,982.07,24,Graduate,427
+89,Meera,26,Male,Patna,Fruits,20.07,Sprinkler,Clay,Zaid,9.71,Yes,Yes,4276,297.57,30.43,430.9,4,Graduate,2035
+90,Anita,52,Female,Mumbai,Maize,17.97,Flood,Loam,Zaid,4.49,No,Yes,19877,1118.16,32.91,728.56,21,Graduate,3434
+91,Rahul,25,Female,Lucknow,Wheat,36.15,Sprinkler,Silt,Zaid,8.74,Yes,No,3720,1200.02,37.43,1665.88,18,Higher Secondary,2556
+92,Pooja,43,Male,Ranchi,Rice,2.04,Manual,Loam,Rabi,2.37,Yes,Yes,11699,484.48,20.57,1538.34,13,Graduate,2797
+93,Rahul,58,Male,Lucknow,Fruits,59.57,Flood,Loam,Zaid,5.89,No,Yes,7902,344.19,29.9,1144.6,12,Graduate,2188
+94,Ramesh,47,Male,Mumbai,Wheat,71.93,Sprinkler,Loam,Zaid,2.0,Yes,Yes,15814,1293.49,33.43,747.8,34,Graduate,3331
+95,Pooja,36,Male,Pune,Maize,46.01,Sprinkler,Clay,Zaid,4.26,No,Yes,9931,699.62,16.29,697.64,2,Graduate,1382
+96,Rohit,25,Female,Lucknow,Wheat,92.52,Manual,Loam,Kharif,7.18,No,Yes,19939,1040.9,26.45,934.45,22,Postgraduate,2830
+97,Sunita,39,Male,Patna,Pulses,37.28,Drip,Loam,Kharif,1.62,Yes,No,5977,1176.51,36.95,855.39,18,Primary,1418
+98,Preeti,36,Female,Patna,Maize,10.79,Flood,Silt,Zaid,9.73,Yes,Yes,2253,564.02,27.15,1215.54,9,Higher Secondary,4881
+99,Preeti,30,Male,Ranchi,Maize,59.74,Sprinkler,Sandy,Rabi,5.95,Yes,Yes,18077,1098.66,15.46,1905.21,23,Postgraduate,4622
+100,Ajay,32,Male,Kolkata,Maize,29.72,Manual,Silt,Kharif,6.78,No,Yes,6043,1221.96,33.06,1255.0,21,Postgraduate,330
+101,Pooja,57,Male,Kolkata,Vegetables,26.19,Drip,Loam,Rabi,8.37,Yes,No,14683,1138.96,29.93,1993.09,3,Graduate,2845
+102,Preeti,50,Female,Ranchi,Fruits,59.62,Manual,Loam,Kharif,1.0,Yes,No,11394,1209.17,34.97,852.63,35,Graduate,4877
+103,Preeti,51,Female,Ranchi,Vegetables,4.37,Manual,Sandy,Rabi,2.77,Yes,No,3798,944.2,19.12,159.42,1,Higher Secondary,3544
+104,Suresh,43,Female,Patna,Pulses,3.04,Flood,Silt,Zaid,7.57,No,Yes,10531,1012.25,35.89,1567.37,30,Postgraduate,2861
+105,Rohit,41,Female,Ranchi,Cotton,1.54,Flood,Silt,Kharif,7.51,No,Yes,11947,266.25,27.94,1386.13,28,Primary,4071
+106,Meera,48,Female,Pune,Rice,66.28,Flood,Sandy,Kharif,3.96,Yes,Yes,9371,815.58,17.64,386.14,3,Primary,3278
+107,Pooja,25,Male,Lucknow,Sugarcane,36.71,Drip,Clay,Kharif,2.48,No,Yes,6422,1406.34,24.01,769.61,33,Secondary,772
+108,Ramesh,54,Male,Lucknow,Maize,47.69,Manual,Clay,Rabi,9.73,Yes,No,17929,1151.99,35.03,1945.43,34,Graduate,4278
+109,Ramesh,57,Male,Delhi,Vegetables,23.45,Manual,Loam,Zaid,3.09,No,Yes,19254,916.04,39.94,1128.45,25,Higher Secondary,4295
+110,Rohit,40,Male,Pune,Sugarcane,16.57,Sprinkler,Loam,Zaid,7.37,No,Yes,8649,1103.81,25.27,1037.03,9,Secondary,2761
+111,Rahul,34,Male,Mumbai,Pulses,65.9,Flood,Clay,Rabi,1.32,Yes,No,6891,531.37,32.65,1250.9,25,Postgraduate,2432
+112,Ramesh,28,Female,Lucknow,Maize,7.66,Drip,Loam,Rabi,7.46,Yes,No,15213,1152.69,26.74,774.26,7,Primary,2147
+113,Preeti,27,Female,Ranchi,Wheat,24.61,Manual,Loam,Kharif,7.53,Yes,No,6555,841.74,31.95,1749.36,1,Primary,4819
+114,Preeti,42,Female,Kolkata,Rice,94.88,Flood,Clay,Zaid,9.77,No,Yes,18201,460.08,16.82,1141.5,12,Primary,4262
+115,Rohit,47,Female,Bhopal,Pulses,13.43,Flood,Loam,Rabi,6.87,Yes,No,8976,878.42,32.06,1223.3,12,Graduate,3944
+116,Rohit,52,Male,Mumbai,Maize,51.78,Sprinkler,Silt,Rabi,9.48,No,Yes,11914,323.68,32.51,191.68,16,Primary,2994
+117,Sunita,53,Female,Bhopal,Sugarcane,47.31,Flood,Silt,Zaid,5.17,Yes,Yes,14404,1135.82,31.54,1331.91,2,Higher Secondary,3142
+118,Rahul,34,Male,Jaipur,Maize,55.74,Drip,Silt,Kharif,5.59,Yes,Yes,18611,542.78,38.3,1783.75,1,Secondary,3890
+119,Meera,59,Male,Ranchi,Fruits,46.16,Manual,Sandy,Kharif,8.09,No,Yes,15914,761.53,38.85,1276.29,9,Primary,2278
+120,Sunita,54,Male,Patna,Rice,9.44,Manual,Sandy,Rabi,2.57,Yes,Yes,4464,1083.17,30.75,503.28,28,Secondary,30
+121,Sunita,47,Female,Ranchi,Pulses,92.4,Drip,Clay,Rabi,4.11,No,No,6360,1347.92,25.85,1688.33,8,Higher Secondary,3046
+122,Meera,33,Male,Ranchi,Sugarcane,81.43,Drip,Clay,Zaid,6.47,No,No,10355,714.74,34.35,219.12,24,Postgraduate,2021
+123,Sunita,58,Male,Lucknow,Vegetables,14.48,Manual,Loam,Zaid,1.19,Yes,Yes,8424,637.25,20.13,545.92,31,Postgraduate,3194
+124,Rahul,25,Male,Jaipur,Sugarcane,67.14,Flood,Loam,Zaid,1.66,Yes,No,3570,583.7,20.36,1901.27,27,Graduate,2937
+125,Ramesh,37,Female,Kolkata,Pulses,1.4,Drip,Loam,Kharif,3.83,Yes,No,8685,1243.78,38.41,1750.6,17,Graduate,2
+126,Preeti,32,Male,Chennai,Fruits,44.44,Manual,Clay,Kharif,8.85,Yes,Yes,11818,1262.82,39.84,838.45,8,Secondary,656
+127,Ramesh,31,Female,Kolkata,Wheat,71.88,Sprinkler,Clay,Rabi,1.8,No,No,5706,261.4,26.81,1392.91,12,Graduate,2181
+128,Rohit,59,Female,Chennai,Maize,53.68,Manual,Silt,Kharif,7.49,No,Yes,18828,371.1,39.67,1139.85,20,Primary,159
+129,Ramesh,36,Male,Delhi,Sugarcane,97.61,Sprinkler,Sandy,Rabi,1.91,Yes,Yes,8247,1099.36,37.52,1946.59,33,Graduate,4488
+130,Ajay,49,Female,Mumbai,Cotton,50.0,Flood,Loam,Kharif,7.99,No,Yes,18302,676.02,36.12,673.24,27,Secondary,3117
+131,Rahul,54,Female,Bhopal,Rice,28.76,Drip,Clay,Rabi,6.83,Yes,Yes,15539,1440.78,35.6,370.84,34,Secondary,2280
+132,Rohit,48,Male,Bhopal,Rice,80.1,Drip,Silt,Rabi,2.2,No,No,10234,1048.01,17.51,1819.68,16,Primary,2363
+133,Rahul,25,Male,Patna,Sugarcane,51.6,Flood,Loam,Kharif,2.81,No,Yes,18540,905.2,36.04,1448.76,27,Primary,1772
+134,Rahul,31,Male,Mumbai,Pulses,88.8,Sprinkler,Loam,Zaid,1.1,Yes,Yes,5051,1361.35,27.34,717.41,4,Higher Secondary,3415
+135,Anita,39,Male,Ranchi,Pulses,35.53,Manual,Loam,Zaid,9.38,No,Yes,13789,298.21,18.23,1880.23,2,Postgraduate,4460
+136,Suresh,46,Male,Chennai,Cotton,44.76,Sprinkler,Clay,Kharif,2.63,Yes,No,10609,521.39,39.18,666.62,20,Postgraduate,482
+137,Meera,36,Female,Pune,Fruits,50.69,Manual,Clay,Rabi,6.38,Yes,Yes,13637,952.92,19.39,439.4,26,Higher Secondary,2657
+138,Rahul,53,Male,Delhi,Cotton,16.1,Drip,Clay,Rabi,5.93,No,Yes,10485,856.88,19.39,291.75,19,Postgraduate,4072
+139,Preeti,51,Female,Patna,Wheat,81.31,Sprinkler,Silt,Kharif,0.69,No,No,14354,324.86,30.16,594.9,15,Primary,3007
+140,Suresh,46,Male,Bhopal,Vegetables,6.71,Drip,Loam,Rabi,7.45,Yes,No,19143,426.72,36.57,1915.72,22,Primary,1434
+141,Ajay,42,Male,Kolkata,Wheat,59.94,Flood,Loam,Zaid,4.7,Yes,Yes,2879,885.12,38.86,555.44,30,Graduate,747
+142,Rahul,60,Male,Ranchi,Fruits,65.63,Sprinkler,Sandy,Kharif,9.44,No,Yes,12364,246.3,15.64,1871.31,22,Secondary,2357
+143,Rahul,48,Female,Chennai,Maize,82.72,Sprinkler,Loam,Kharif,3.73,Yes,No,18495,1101.42,25.53,347.94,15,Primary,4775
+144,Rahul,54,Female,Delhi,Fruits,98.75,Sprinkler,Silt,Rabi,4.64,Yes,No,11439,1171.09,18.57,1317.4,15,Secondary,693
+145,Suresh,26,Male,Chennai,Pulses,5.79,Sprinkler,Loam,Zaid,5.63,Yes,No,19756,998.46,23.71,1008.93,12,Postgraduate,175
+146,Pooja,40,Female,Pune,Rice,17.09,Flood,Clay,Rabi,1.59,No,Yes,14481,1019.71,39.76,1657.7,18,Postgraduate,4818
+147,Rahul,49,Female,Patna,Pulses,51.82,Manual,Clay,Rabi,3.8,Yes,No,14600,994.32,26.75,1134.57,34,Higher Secondary,554
+148,Ajay,33,Male,Jaipur,Maize,45.76,Drip,Clay,Rabi,0.85,Yes,Yes,19310,1465.75,36.61,1448.29,31,Primary,1361
+149,Rohit,55,Male,Bhopal,Fruits,60.55,Flood,Loam,Rabi,1.4,Yes,No,16524,833.83,17.87,816.92,25,Primary,1715
+150,Anita,27,Female,Kolkata,Sugarcane,68.26,Drip,Silt,Zaid,9.78,Yes,Yes,19413,1179.11,37.0,1401.02,30,Secondary,3802
+151,Anita,37,Female,Ranchi,Maize,18.38,Manual,Clay,Zaid,8.5,Yes,No,8565,1398.48,16.42,913.36,28,Higher Secondary,4241
+152,Ramesh,47,Male,Bhopal,Fruits,2.69,Manual,Silt,Rabi,6.58,Yes,Yes,15895,1494.32,38.65,1758.75,7,Primary,1706
+153,Rohit,42,Female,Bhopal,Wheat,4.26,Flood,Sandy,Kharif,7.4,No,No,3841,701.39,37.48,1089.39,11,Primary,3002
+154,Preeti,55,Female,Pune,Vegetables,32.08,Sprinkler,Silt,Kharif,4.6,No,Yes,10489,940.18,32.97,1693.62,13,Higher Secondary,4583
+155,Ramesh,30,Female,Kolkata,Rice,91.72,Manual,Clay,Kharif,7.41,No,Yes,19102,1004.1,19.49,631.94,29,Primary,4311
+156,Ramesh,60,Male,Patna,Sugarcane,48.87,Drip,Loam,Zaid,8.86,Yes,Yes,16399,726.67,39.4,152.45,25,Graduate,4621
+157,Anita,59,Male,Ranchi,Wheat,36.49,Manual,Silt,Rabi,8.97,No,Yes,14381,866.08,23.2,1666.98,28,Postgraduate,3385
+158,Rahul,33,Female,Kolkata,Maize,8.06,Drip,Loam,Rabi,9.95,No,Yes,6345,966.65,35.54,810.54,7,Secondary,254
+159,Rohit,56,Male,Ranchi,Pulses,11.5,Drip,Loam,Zaid,2.38,Yes,No,5044,762.24,26.65,211.67,28,Primary,2530
+160,Meera,42,Female,Mumbai,Pulses,84.07,Drip,Silt,Kharif,2.01,Yes,Yes,5586,759.37,22.64,1068.64,35,Graduate,1284
+161,Pooja,32,Female,Jaipur,Wheat,78.08,Flood,Silt,Kharif,9.19,No,No,9268,396.08,37.53,335.56,6,Graduate,1733
+162,Ramesh,55,Male,Lucknow,Rice,7.12,Sprinkler,Loam,Zaid,7.43,No,No,17833,756.83,39.55,1247.35,34,Higher Secondary,4328
+163,Preeti,49,Female,Jaipur,Fruits,56.76,Flood,Loam,Kharif,6.05,Yes,No,3417,836.99,29.1,1333.81,29,Graduate,851
+164,Anita,59,Female,Lucknow,Cotton,31.07,Sprinkler,Clay,Kharif,2.82,Yes,No,15066,227.54,19.15,1012.46,34,Primary,3160
+165,Ajay,49,Male,Kolkata,Maize,92.63,Drip,Clay,Zaid,7.93,Yes,No,16518,1324.6,21.56,730.79,10,Graduate,2080
+166,Pooja,49,Male,Delhi,Fruits,14.15,Sprinkler,Clay,Kharif,6.07,No,Yes,10911,825.83,38.1,846.28,15,Primary,2042
+167,Preeti,45,Female,Patna,Fruits,51.14,Manual,Sandy,Kharif,4.49,Yes,No,6956,340.94,27.22,941.81,21,Primary,4870
+168,Anita,59,Male,Patna,Pulses,56.85,Sprinkler,Silt,Rabi,8.42,Yes,Yes,17332,846.9,20.22,734.99,23,Primary,1679
+169,Ajay,37,Male,Lucknow,Sugarcane,16.47,Manual,Silt,Zaid,1.76,Yes,No,18851,230.77,21.79,580.48,10,Primary,969
+170,Ramesh,45,Female,Bhopal,Fruits,37.45,Drip,Silt,Rabi,9.17,No,Yes,5753,240.67,27.66,1396.06,2,Postgraduate,1842
+171,Rohit,48,Male,Patna,Wheat,35.29,Drip,Sandy,Zaid,3.23,Yes,Yes,4034,996.02,35.85,992.26,34,Graduate,1970
+172,Anita,52,Male,Lucknow,Rice,32.01,Manual,Clay,Rabi,9.84,No,No,12602,1359.26,36.05,1664.14,27,Higher Secondary,4835
+173,Ramesh,54,Male,Chennai,Maize,57.46,Sprinkler,Sandy,Kharif,4.12,No,No,12512,988.53,24.82,562.42,20,Postgraduate,3238
+174,Rohit,60,Female,Patna,Fruits,46.5,Manual,Silt,Zaid,4.33,Yes,Yes,17981,845.14,28.8,853.4,11,Higher Secondary,790
+175,Ajay,32,Female,Pune,Cotton,94.21,Manual,Clay,Zaid,2.04,No,Yes,6530,311.65,33.87,1245.27,1,Secondary,486
+176,Ramesh,49,Male,Jaipur,Sugarcane,65.64,Manual,Clay,Kharif,5.48,Yes,No,17236,1123.27,32.21,832.07,34,Secondary,2235
+177,Ramesh,37,Male,Mumbai,Sugarcane,34.92,Flood,Loam,Zaid,9.69,No,No,18469,642.42,24.73,1773.64,6,Higher Secondary,4603
+178,Anita,39,Female,Chennai,Sugarcane,41.9,Sprinkler,Silt,Rabi,2.92,No,No,9536,1157.75,17.3,1020.53,28,Secondary,4074
+179,Preeti,35,Male,Pune,Pulses,36.33,Sprinkler,Sandy,Zaid,8.38,No,No,19787,1343.56,22.38,191.42,18,Graduate,1726
+180,Anita,53,Male,Patna,Sugarcane,90.53,Sprinkler,Sandy,Kharif,6.4,No,Yes,5610,1250.46,27.66,1391.17,31,Higher Secondary,3439
+181,Preeti,44,Male,Delhi,Sugarcane,1.33,Manual,Loam,Rabi,4.19,No,No,8480,972.38,17.08,561.35,10,Secondary,2642
+182,Suresh,45,Female,Pune,Vegetables,77.18,Flood,Clay,Zaid,8.25,No,No,7142,850.45,17.35,597.24,10,Primary,4187
+183,Suresh,27,Male,Mumbai,Wheat,9.29,Manual,Clay,Zaid,5.38,No,No,16897,759.84,38.28,1732.77,7,Postgraduate,4470
+184,Preeti,27,Female,Delhi,Sugarcane,57.18,Drip,Sandy,Rabi,3.97,Yes,Yes,18664,1366.1,33.3,1277.45,12,Graduate,1797
+185,Preeti,46,Male,Ranchi,Sugarcane,19.35,Sprinkler,Loam,Rabi,4.15,Yes,Yes,2895,242.0,18.67,208.82,8,Higher Secondary,4897
+186,Rahul,56,Male,Delhi,Cotton,92.73,Drip,Sandy,Kharif,9.43,No,No,10531,214.53,17.29,697.56,2,Higher Secondary,3250
+187,Rahul,42,Female,Patna,Vegetables,66.19,Flood,Clay,Kharif,5.14,No,Yes,8676,493.67,28.24,1686.03,10,Primary,2485
+188,Suresh,28,Female,Delhi,Rice,59.04,Drip,Loam,Kharif,5.11,No,Yes,15102,1182.9,39.2,760.92,10,Primary,1134
+189,Pooja,59,Male,Mumbai,Cotton,72.76,Manual,Sandy,Kharif,7.71,Yes,Yes,4866,1482.58,38.06,793.1,3,Secondary,3268
+190,Rohit,27,Female,Delhi,Pulses,69.24,Drip,Loam,Rabi,8.09,Yes,No,16952,433.9,39.53,1271.19,27,Postgraduate,2716
+191,Sunita,28,Female,Chennai,Fruits,21.86,Sprinkler,Loam,Kharif,3.01,Yes,Yes,16857,721.0,38.15,1670.69,15,Primary,4339
+192,Suresh,39,Female,Mumbai,Rice,21.99,Flood,Sandy,Zaid,9.04,No,No,15965,576.99,35.86,1559.25,32,Higher Secondary,39
+193,Sunita,50,Male,Pune,Fruits,32.6,Sprinkler,Sandy,Rabi,5.08,No,Yes,3272,658.72,31.77,1072.94,10,Secondary,3391
+194,Rohit,28,Male,Chennai,Vegetables,40.83,Sprinkler,Clay,Kharif,5.79,Yes,No,11134,952.21,39.04,241.3,22,Higher Secondary,2369
+195,Suresh,54,Female,Bhopal,Maize,28.29,Drip,Silt,Zaid,7.52,No,Yes,2211,560.45,36.71,1714.0,3,Postgraduate,4092
+196,Rohit,34,Male,Chennai,Cotton,51.22,Drip,Clay,Rabi,2.08,No,No,5151,821.8,35.45,134.39,34,Higher Secondary,937
+197,Pooja,37,Male,Delhi,Cotton,63.28,Drip,Sandy,Zaid,4.51,No,Yes,9668,523.14,29.28,191.02,20,Graduate,2897
+198,Ramesh,29,Male,Kolkata,Wheat,76.98,Sprinkler,Loam,Kharif,6.28,Yes,Yes,15463,1456.34,26.71,524.82,33,Higher Secondary,1629
+199,Anita,26,Female,Delhi,Pulses,22.77,Flood,Clay,Rabi,2.61,No,Yes,2767,250.66,25.72,1018.93,18,Secondary,419
+200,Preeti,52,Female,Mumbai,Sugarcane,61.5,Drip,Clay,Zaid,1.01,Yes,No,11395,575.26,38.63,1025.53,11,Postgraduate,3954
+201,Ajay,25,Female,Mumbai,Wheat,98.77,Sprinkler,Loam,Rabi,6.3,No,Yes,4179,812.41,24.52,635.06,19,Graduate,4198
+202,Preeti,31,Male,Mumbai,Vegetables,64.05,Flood,Silt,Rabi,6.81,Yes,No,3840,450.8,34.55,112.39,20,Primary,2237
+203,Meera,48,Male,Pune,Sugarcane,45.54,Manual,Sandy,Zaid,7.71,Yes,No,14323,692.18,25.83,1672.09,35,Higher Secondary,44
+204,Rohit,50,Male,Kolkata,Pulses,39.46,Sprinkler,Loam,Rabi,0.78,Yes,Yes,19349,1076.56,34.22,1525.77,1,Secondary,4395
+205,Sunita,53,Female,Pune,Wheat,60.62,Drip,Silt,Zaid,8.6,No,No,3253,423.09,26.61,696.57,31,Graduate,830
+206,Ramesh,49,Female,Patna,Maize,51.9,Flood,Loam,Kharif,0.74,Yes,No,6625,1356.6,17.13,937.68,28,Primary,2314
+207,Meera,48,Female,Delhi,Rice,33.13,Drip,Silt,Zaid,6.89,No,No,19218,695.82,27.55,825.53,19,Postgraduate,1425
+208,Ramesh,31,Female,Lucknow,Rice,86.86,Sprinkler,Sandy,Rabi,9.1,Yes,No,11200,529.25,38.54,142.5,1,Graduate,3863
+209,Anita,32,Female,Lucknow,Fruits,69.6,Drip,Loam,Zaid,5.67,No,Yes,17502,473.76,27.83,1816.94,4,Secondary,1769
+210,Suresh,49,Female,Ranchi,Rice,91.97,Manual,Sandy,Rabi,7.11,No,Yes,7024,1285.59,33.82,1836.16,20,Higher Secondary,4127
+211,Suresh,25,Male,Chennai,Vegetables,22.93,Flood,Sandy,Zaid,7.63,Yes,Yes,15133,1216.75,28.72,1650.53,22,Secondary,1670
+212,Suresh,34,Male,Patna,Sugarcane,19.79,Drip,Loam,Kharif,8.65,No,Yes,4287,1113.34,30.14,654.48,33,Graduate,1693
+213,Suresh,27,Male,Chennai,Wheat,92.43,Sprinkler,Clay,Zaid,1.01,No,No,15159,1111.09,36.76,1955.33,16,Graduate,1702
+214,Sunita,32,Female,Chennai,Fruits,71.15,Manual,Clay,Zaid,0.74,Yes,Yes,15852,881.78,38.14,772.43,35,Postgraduate,767
+215,Ramesh,25,Female,Ranchi,Sugarcane,78.47,Manual,Sandy,Kharif,0.98,No,Yes,12851,1011.36,21.61,1872.29,1,Primary,1934
+216,Sunita,54,Female,Mumbai,Rice,40.76,Flood,Silt,Rabi,6.76,Yes,No,2229,549.29,33.23,800.12,14,Secondary,4790
+217,Suresh,43,Male,Delhi,Vegetables,41.64,Drip,Silt,Zaid,6.37,No,Yes,5765,253.78,29.84,1991.23,10,Secondary,4091
+218,Rohit,50,Female,Pune,Sugarcane,74.38,Manual,Loam,Kharif,3.37,Yes,Yes,16149,526.77,39.16,829.53,2,Higher Secondary,3488
+219,Rohit,51,Female,Delhi,Sugarcane,56.74,Flood,Sandy,Kharif,8.99,No,No,9606,554.36,39.4,1894.1,24,Secondary,1794
+220,Preeti,60,Male,Mumbai,Rice,80.26,Flood,Silt,Kharif,8.15,No,Yes,18976,941.32,25.02,1305.3,16,Secondary,4254
+221,Pooja,54,Female,Bhopal,Wheat,56.75,Drip,Silt,Kharif,8.32,No,Yes,14337,1484.81,17.76,1059.21,19,Postgraduate,387
+222,Ajay,31,Female,Mumbai,Fruits,31.17,Sprinkler,Loam,Rabi,7.84,Yes,No,4366,523.22,17.72,1733.0,26,Postgraduate,4672
+223,Ramesh,59,Female,Kolkata,Wheat,97.36,Flood,Sandy,Zaid,8.18,Yes,No,5012,1221.35,39.79,1571.45,16,Secondary,746
+224,Ajay,49,Male,Pune,Vegetables,57.26,Manual,Clay,Kharif,1.63,No,No,5739,769.12,33.12,1755.44,33,Graduate,1607
+225,Rohit,52,Male,Ranchi,Vegetables,94.0,Manual,Clay,Zaid,6.96,No,Yes,12541,522.68,31.19,1497.7,20,Secondary,1425
+226,Rohit,40,Female,Patna,Fruits,30.76,Manual,Loam,Zaid,8.94,Yes,Yes,3574,210.21,39.53,1554.97,28,Secondary,2854
+227,Anita,55,Male,Ranchi,Sugarcane,47.14,Sprinkler,Silt,Kharif,5.06,No,Yes,2689,755.28,17.23,1219.6,30,Higher Secondary,3436
+228,Ramesh,37,Female,Ranchi,Maize,75.74,Drip,Loam,Kharif,7.59,No,No,2408,377.45,17.29,1807.65,10,Higher Secondary,865
+229,Meera,59,Male,Jaipur,Fruits,99.09,Sprinkler,Silt,Zaid,4.21,Yes,Yes,11745,247.02,25.29,517.59,10,Postgraduate,194
+230,Meera,53,Female,Bhopal,Wheat,70.11,Drip,Loam,Rabi,2.65,Yes,Yes,12895,651.44,26.09,1498.51,35,Primary,969
+231,Sunita,30,Female,Delhi,Wheat,97.85,Drip,Clay,Zaid,4.26,No,No,15743,1242.81,30.83,1888.98,23,Postgraduate,3728
+232,Preeti,39,Female,Ranchi,Vegetables,93.28,Flood,Clay,Kharif,2.64,No,No,13221,1037.84,18.37,682.51,31,Graduate,2752
+233,Meera,55,Male,Pune,Maize,32.27,Manual,Clay,Rabi,6.31,No,No,3399,819.57,24.29,1164.64,3,Postgraduate,3777
+234,Sunita,34,Female,Mumbai,Maize,40.25,Flood,Loam,Kharif,1.01,No,Yes,3554,455.87,21.42,1927.24,33,Secondary,4750
+235,Meera,51,Male,Lucknow,Cotton,85.05,Flood,Silt,Kharif,1.97,Yes,No,19498,1473.89,39.2,1739.53,1,Secondary,2238
+236,Meera,26,Female,Lucknow,Sugarcane,53.54,Sprinkler,Sandy,Rabi,8.96,Yes,Yes,7602,499.2,37.99,1453.39,9,Higher Secondary,3882
+237,Pooja,50,Female,Bhopal,Wheat,92.72,Sprinkler,Loam,Kharif,6.65,Yes,Yes,4470,743.42,26.66,1908.41,28,Graduate,2333
+238,Suresh,27,Female,Lucknow,Cotton,5.55,Sprinkler,Sandy,Rabi,1.38,No,No,3940,819.64,34.57,1253.19,21,Higher Secondary,2126
+239,Suresh,26,Female,Bhopal,Sugarcane,93.71,Flood,Loam,Zaid,1.09,Yes,No,4185,361.77,35.77,1051.75,5,Secondary,839
+240,Meera,57,Female,Patna,Sugarcane,30.04,Flood,Loam,Rabi,6.09,No,No,17221,629.85,29.46,138.65,31,Primary,4239
+241,Suresh,41,Female,Lucknow,Maize,32.32,Drip,Silt,Rabi,6.41,Yes,No,5036,765.14,27.43,119.71,24,Higher Secondary,1131
+242,Rohit,36,Female,Ranchi,Vegetables,5.86,Drip,Clay,Rabi,3.97,No,No,15913,885.23,32.45,1814.04,12,Higher Secondary,3107
+243,Ramesh,33,Male,Lucknow,Fruits,90.98,Manual,Clay,Zaid,3.06,Yes,No,7839,458.84,19.18,1565.86,15,Primary,3331
+244,Rahul,42,Male,Chennai,Cotton,76.69,Sprinkler,Loam,Rabi,3.74,Yes,Yes,3891,1092.93,26.09,1225.43,24,Higher Secondary,2434
+245,Meera,44,Female,Patna,Sugarcane,76.1,Sprinkler,Silt,Zaid,5.25,No,Yes,4024,854.89,19.1,1570.59,2,Secondary,1830
+246,Rohit,59,Male,Kolkata,Pulses,1.59,Flood,Loam,Rabi,6.89,No,Yes,10222,1465.55,35.5,1798.57,24,Primary,4915
+247,Ramesh,31,Male,Lucknow,Pulses,78.33,Drip,Clay,Kharif,4.09,No,Yes,15075,960.16,28.58,578.3,18,Postgraduate,3773
+248,Rohit,60,Male,Bhopal,Sugarcane,79.35,Flood,Clay,Zaid,6.85,No,No,14268,1400.59,34.4,153.62,33,Postgraduate,975
+249,Rahul,59,Female,Lucknow,Maize,69.37,Manual,Sandy,Kharif,7.08,Yes,No,8211,1230.72,29.21,124.84,16,Postgraduate,111
+250,Ramesh,28,Male,Mumbai,Fruits,76.91,Flood,Loam,Rabi,0.98,Yes,Yes,7937,1269.58,24.82,1047.33,5,Higher Secondary,1690
+251,Ramesh,40,Female,Chennai,Pulses,97.34,Sprinkler,Clay,Kharif,9.72,No,Yes,6486,1195.72,38.08,472.04,25,Secondary,4575
+252,Rahul,43,Female,Bhopal,Rice,73.34,Drip,Clay,Rabi,0.54,Yes,No,19679,736.79,15.5,1798.42,5,Primary,2992
+253,Rohit,50,Male,Chennai,Rice,72.45,Drip,Clay,Rabi,9.41,Yes,No,8862,815.57,16.74,693.99,12,Higher Secondary,2387
+254,Anita,44,Female,Bhopal,Maize,70.17,Sprinkler,Silt,Rabi,4.65,Yes,Yes,10734,373.99,16.2,156.74,5,Secondary,270
+255,Suresh,58,Female,Ranchi,Fruits,90.44,Flood,Clay,Rabi,5.32,No,No,11055,694.36,36.76,744.94,14,Secondary,1254
+256,Rahul,57,Female,Delhi,Cotton,32.77,Drip,Silt,Zaid,5.33,Yes,No,17214,820.65,31.97,104.81,35,Higher Secondary,53
+257,Pooja,37,Female,Patna,Pulses,91.7,Sprinkler,Loam,Kharif,3.04,Yes,No,6835,311.62,32.52,1075.33,35,Primary,2653
+258,Rohit,30,Male,Delhi,Wheat,49.73,Flood,Silt,Kharif,2.65,No,Yes,3886,1446.8,33.86,1607.8,10,Postgraduate,2756
+259,Ramesh,32,Male,Jaipur,Pulses,87.75,Drip,Clay,Kharif,4.91,Yes,No,7445,1370.95,36.62,846.46,32,Secondary,3059
+260,Anita,43,Female,Jaipur,Wheat,42.11,Drip,Loam,Kharif,8.83,Yes,Yes,11737,1203.58,30.65,320.74,30,Secondary,3632
+261,Rohit,30,Male,Patna,Wheat,20.81,Flood,Loam,Rabi,2.57,Yes,No,3854,649.02,32.17,1784.2,12,Postgraduate,1464
+262,Rahul,36,Female,Delhi,Wheat,53.55,Flood,Clay,Rabi,4.21,No,Yes,17659,1154.11,35.06,1870.33,21,Postgraduate,1725
+263,Suresh,43,Female,Ranchi,Maize,99.7,Manual,Sandy,Zaid,2.45,Yes,No,11484,741.2,18.79,946.45,12,Secondary,3858
+264,Sunita,26,Male,Ranchi,Fruits,51.56,Sprinkler,Clay,Kharif,9.16,No,Yes,8907,1248.21,16.33,159.02,33,Higher Secondary,4750
+265,Pooja,27,Female,Ranchi,Fruits,70.99,Flood,Loam,Zaid,4.22,No,Yes,6625,787.79,26.91,1356.77,3,Postgraduate,4903
+266,Rohit,25,Female,Kolkata,Wheat,2.87,Manual,Clay,Rabi,1.28,No,Yes,19164,354.04,28.36,1112.77,12,Postgraduate,1175
+267,Meera,49,Male,Ranchi,Wheat,24.05,Manual,Silt,Zaid,7.79,No,Yes,14631,921.25,23.61,558.48,15,Secondary,1453
+268,Sunita,58,Female,Pune,Vegetables,77.53,Flood,Loam,Zaid,4.08,No,Yes,10843,388.66,34.86,111.73,28,Higher Secondary,3181
+269,Meera,26,Female,Delhi,Maize,37.01,Flood,Clay,Kharif,0.61,Yes,Yes,15560,679.26,23.19,507.43,20,Primary,4021
+270,Pooja,35,Female,Pune,Cotton,31.0,Sprinkler,Sandy,Kharif,5.23,Yes,Yes,4456,664.98,34.78,551.04,26,Higher Secondary,3266
+271,Preeti,49,Female,Jaipur,Wheat,65.28,Flood,Sandy,Zaid,5.6,Yes,Yes,17775,504.02,37.26,249.99,11,Primary,150
+272,Preeti,29,Female,Chennai,Rice,36.06,Drip,Silt,Rabi,1.83,No,Yes,10895,353.25,28.42,1735.64,23,Higher Secondary,2229
+273,Anita,54,Female,Lucknow,Cotton,30.73,Manual,Loam,Zaid,5.53,No,No,16661,1217.72,35.14,1409.31,27,Postgraduate,97
+274,Suresh,50,Female,Pune,Maize,70.1,Manual,Clay,Rabi,6.52,Yes,Yes,15947,464.0,37.89,1912.84,6,Higher Secondary,2313
+275,Anita,41,Male,Lucknow,Rice,79.78,Manual,Loam,Kharif,8.59,No,No,19441,1261.93,32.85,929.26,18,Postgraduate,3790
+276,Rohit,29,Female,Kolkata,Sugarcane,45.56,Drip,Sandy,Zaid,6.7,No,No,4075,702.56,21.38,1622.15,16,Secondary,1974
+277,Ajay,28,Male,Lucknow,Maize,33.5,Flood,Sandy,Kharif,6.11,Yes,No,8790,469.04,28.37,1975.71,25,Primary,4497
+278,Ramesh,34,Male,Jaipur,Maize,40.25,Sprinkler,Loam,Rabi,6.23,Yes,Yes,14581,1133.63,37.65,508.92,21,Primary,3316
+279,Meera,38,Male,Jaipur,Vegetables,5.04,Manual,Loam,Zaid,6.36,Yes,No,18766,735.28,35.66,1158.98,4,Postgraduate,1615
+280,Preeti,60,Female,Lucknow,Rice,11.22,Sprinkler,Sandy,Rabi,7.41,Yes,Yes,2557,1412.77,16.97,389.55,16,Graduate,1520
+281,Meera,36,Male,Kolkata,Pulses,94.56,Flood,Clay,Kharif,0.72,No,Yes,4945,1442.94,27.87,632.64,34,Graduate,4905
+282,Rohit,56,Female,Patna,Maize,39.81,Flood,Sandy,Rabi,2.96,No,No,10277,1091.86,38.11,448.93,1,Postgraduate,4716
+283,Anita,40,Male,Ranchi,Wheat,15.56,Flood,Clay,Zaid,1.56,No,Yes,19405,821.8,23.52,1617.82,35,Higher Secondary,3753
+284,Rahul,35,Female,Bhopal,Maize,16.85,Sprinkler,Sandy,Kharif,9.12,No,No,3498,379.6,23.86,887.01,28,Higher Secondary,3125
+285,Pooja,58,Female,Mumbai,Rice,60.23,Sprinkler,Clay,Rabi,9.44,Yes,No,6857,1410.47,29.59,987.79,31,Secondary,1455
+286,Preeti,53,Female,Kolkata,Sugarcane,1.4,Sprinkler,Silt,Zaid,3.4,Yes,Yes,4659,1109.43,18.6,209.47,2,Higher Secondary,262
+287,Anita,34,Female,Bhopal,Wheat,75.17,Flood,Clay,Kharif,3.19,No,Yes,11755,768.49,27.65,730.63,29,Graduate,1937
+288,Sunita,40,Male,Mumbai,Pulses,60.67,Manual,Silt,Kharif,0.85,No,No,13980,361.09,18.63,1308.41,6,Graduate,478
+289,Ajay,36,Female,Lucknow,Rice,63.39,Drip,Silt,Rabi,5.47,No,Yes,7425,1366.21,39.71,995.24,24,Secondary,4541
+290,Rahul,39,Male,Ranchi,Cotton,43.56,Drip,Loam,Kharif,5.82,No,Yes,3254,995.73,29.85,496.01,2,Primary,2430
+291,Rahul,51,Female,Lucknow,Cotton,4.9,Flood,Sandy,Zaid,7.53,No,No,3819,1004.14,36.8,1903.93,24,Graduate,3085
+292,Anita,46,Female,Jaipur,Maize,18.87,Manual,Clay,Zaid,2.51,Yes,Yes,19218,1322.22,28.16,863.79,18,Higher Secondary,1624
+293,Suresh,36,Female,Lucknow,Sugarcane,67.5,Sprinkler,Silt,Zaid,6.99,No,No,15945,668.52,39.44,1761.18,8,Secondary,3308
+294,Anita,42,Female,Chennai,Maize,83.29,Sprinkler,Silt,Rabi,4.81,Yes,Yes,18342,1221.87,39.45,894.61,13,Secondary,742
+295,Rohit,36,Female,Pune,Wheat,61.18,Drip,Loam,Zaid,3.51,No,Yes,4704,1016.75,16.05,475.85,7,Higher Secondary,2539
+296,Preeti,55,Female,Ranchi,Vegetables,54.26,Drip,Silt,Kharif,6.21,No,No,9955,597.23,24.68,479.1,20,Secondary,122
+297,Anita,39,Female,Bhopal,Wheat,16.05,Flood,Clay,Zaid,5.92,Yes,Yes,9760,916.26,29.73,1393.38,26,Postgraduate,345
+298,Rohit,49,Female,Mumbai,Cotton,97.87,Sprinkler,Silt,Zaid,6.47,Yes,Yes,7708,535.73,31.86,1139.44,1,Graduate,4397
+299,Sunita,26,Female,Patna,Sugarcane,9.09,Sprinkler,Sandy,Kharif,7.35,No,Yes,17047,789.94,33.69,949.03,22,Graduate,3445
+300,Sunita,32,Male,Pune,Vegetables,25.84,Flood,Sandy,Zaid,7.87,Yes,Yes,18654,1125.65,39.61,984.72,14,Graduate,1375
+301,Pooja,43,Male,Patna,Pulses,59.86,Manual,Silt,Zaid,3.6,Yes,Yes,7262,262.39,30.92,1525.34,27,Postgraduate,425
+302,Rahul,40,Female,Ranchi,Maize,79.43,Flood,Loam,Rabi,5.25,Yes,No,19306,868.21,22.39,1675.92,11,Graduate,4402
+303,Ramesh,48,Female,Mumbai,Wheat,3.87,Sprinkler,Silt,Zaid,5.29,Yes,No,18848,684.0,20.53,1013.82,21,Secondary,3633
+304,Sunita,50,Female,Kolkata,Maize,74.7,Flood,Clay,Zaid,1.2,No,Yes,17976,700.65,17.36,1879.22,24,Higher Secondary,2409
+305,Rohit,40,Female,Delhi,Vegetables,90.98,Manual,Clay,Kharif,6.26,Yes,No,4658,1354.46,16.18,1963.37,16,Secondary,1321
+306,Ramesh,51,Male,Jaipur,Cotton,27.32,Manual,Clay,Kharif,2.8,Yes,No,6732,1466.3,28.01,617.47,24,Graduate,3496
+307,Pooja,34,Female,Patna,Vegetables,84.13,Flood,Clay,Kharif,8.63,Yes,No,3434,354.85,31.23,1716.2,11,Graduate,3313
+308,Suresh,27,Male,Patna,Sugarcane,3.83,Flood,Sandy,Kharif,4.34,Yes,No,19837,1116.95,19.03,162.69,31,Primary,2063
+309,Pooja,49,Male,Bhopal,Wheat,77.69,Flood,Clay,Zaid,4.81,No,No,15654,894.29,18.74,597.47,1,Secondary,3697
+310,Sunita,29,Male,Delhi,Rice,67.45,Manual,Silt,Rabi,9.16,Yes,Yes,19695,432.08,20.39,676.37,16,Secondary,284
+311,Meera,48,Male,Kolkata,Pulses,3.03,Drip,Sandy,Kharif,7.02,No,Yes,7233,200.11,27.8,1726.49,8,Postgraduate,3249
+312,Preeti,46,Female,Mumbai,Maize,23.67,Flood,Silt,Zaid,4.65,No,Yes,13904,535.69,35.25,1469.54,16,Higher Secondary,3666
+313,Rohit,59,Male,Ranchi,Rice,37.61,Manual,Loam,Zaid,5.03,Yes,No,6501,1068.12,37.59,1302.08,11,Primary,3492
+314,Suresh,35,Female,Delhi,Sugarcane,24.59,Sprinkler,Sandy,Rabi,5.17,No,No,3165,842.08,39.58,562.99,5,Postgraduate,2460
+315,Ramesh,46,Male,Jaipur,Wheat,74.41,Flood,Loam,Zaid,4.78,Yes,No,17157,917.56,36.77,913.72,9,Higher Secondary,1205
+316,Ajay,36,Female,Pune,Rice,91.65,Drip,Loam,Zaid,6.3,No,Yes,8362,1223.63,25.11,1017.13,7,Higher Secondary,2427
+317,Rohit,29,Female,Mumbai,Maize,1.4,Sprinkler,Loam,Rabi,5.9,Yes,No,5818,829.7,36.89,1551.77,22,Graduate,1046
+318,Meera,37,Female,Lucknow,Rice,86.45,Manual,Silt,Rabi,1.35,Yes,Yes,15676,1383.18,15.53,193.32,29,Primary,3196
+319,Meera,26,Male,Pune,Wheat,42.27,Sprinkler,Silt,Zaid,4.72,No,No,4896,1283.94,18.94,1838.91,24,Primary,4206
+320,Rohit,50,Female,Jaipur,Wheat,4.07,Manual,Sandy,Kharif,5.1,No,No,9868,1046.09,19.59,1193.28,18,Primary,4694
+321,Rahul,31,Female,Kolkata,Sugarcane,80.16,Manual,Loam,Zaid,1.04,Yes,No,18742,672.09,34.91,1213.25,33,Secondary,3802
+322,Preeti,41,Male,Jaipur,Sugarcane,11.8,Flood,Clay,Zaid,2.78,Yes,Yes,15211,617.77,39.67,754.26,33,Higher Secondary,1663
+323,Rahul,50,Female,Chennai,Vegetables,36.62,Sprinkler,Sandy,Zaid,8.82,No,Yes,16180,1202.63,16.28,1864.67,4,Secondary,4898
+324,Preeti,42,Male,Jaipur,Cotton,24.32,Flood,Silt,Rabi,8.65,Yes,Yes,11476,1390.39,32.97,1294.48,31,Primary,242
+325,Meera,41,Male,Jaipur,Sugarcane,49.91,Drip,Loam,Rabi,8.47,No,No,10346,1338.77,15.42,223.1,7,Primary,2701
+326,Anita,47,Female,Lucknow,Wheat,38.9,Flood,Silt,Zaid,9.25,No,Yes,17241,418.45,38.89,1570.52,27,Secondary,1444
+327,Anita,37,Male,Ranchi,Sugarcane,29.8,Manual,Loam,Zaid,9.27,Yes,No,13271,221.31,31.62,332.91,34,Postgraduate,4952
+328,Rohit,49,Female,Pune,Fruits,86.22,Manual,Loam,Rabi,4.54,Yes,No,15607,628.94,20.5,1853.21,21,Postgraduate,2849
+329,Preeti,38,Female,Delhi,Cotton,16.66,Sprinkler,Silt,Rabi,0.55,No,No,3235,368.24,28.79,1190.99,2,Postgraduate,4130
+330,Preeti,38,Female,Pune,Pulses,90.66,Flood,Clay,Kharif,8.08,Yes,No,14423,789.31,17.22,1449.21,27,Higher Secondary,544
+331,Preeti,30,Female,Mumbai,Rice,16.43,Flood,Silt,Kharif,7.56,Yes,No,10616,509.48,25.86,1101.68,35,Graduate,4861
+332,Meera,50,Male,Lucknow,Cotton,70.86,Drip,Loam,Zaid,3.18,No,No,4920,1046.65,36.47,1807.67,32,Postgraduate,2801
+333,Meera,60,Male,Lucknow,Rice,20.61,Flood,Silt,Rabi,4.74,Yes,Yes,4045,622.91,22.84,326.99,31,Secondary,3692
+334,Ramesh,30,Male,Lucknow,Vegetables,78.64,Flood,Silt,Zaid,2.96,Yes,Yes,15349,583.77,39.74,296.65,16,Higher Secondary,2219
+335,Ajay,26,Female,Delhi,Cotton,43.75,Sprinkler,Clay,Kharif,8.74,Yes,Yes,12198,1453.49,38.62,474.37,13,Postgraduate,4567
+336,Suresh,49,Female,Chennai,Fruits,32.14,Manual,Clay,Rabi,0.93,Yes,Yes,6895,1180.39,25.01,1992.24,11,Primary,867
+337,Sunita,45,Male,Lucknow,Fruits,15.73,Manual,Sandy,Zaid,4.43,Yes,Yes,4998,477.35,36.23,1124.87,20,Higher Secondary,1804
+338,Meera,30,Male,Patna,Fruits,71.1,Flood,Clay,Kharif,9.67,Yes,No,17080,825.68,29.82,791.49,17,Higher Secondary,4916
+339,Pooja,44,Female,Chennai,Rice,22.69,Manual,Silt,Rabi,2.82,No,Yes,6974,1108.79,39.4,1177.59,26,Secondary,3756
+340,Ramesh,29,Male,Chennai,Maize,65.93,Sprinkler,Clay,Zaid,5.02,Yes,No,16586,609.77,18.14,1308.32,28,Secondary,2559
+341,Rohit,59,Male,Delhi,Vegetables,74.47,Manual,Silt,Rabi,4.82,Yes,No,18975,609.54,25.28,888.88,16,Graduate,2913
+342,Rahul,57,Female,Mumbai,Rice,29.22,Flood,Loam,Kharif,3.08,Yes,No,17685,494.73,35.86,1539.17,33,Graduate,1824
+343,Ramesh,39,Female,Lucknow,Pulses,24.94,Manual,Sandy,Zaid,5.92,No,No,16065,1189.31,30.89,1308.61,8,Primary,43
+344,Anita,46,Female,Pune,Rice,96.86,Manual,Loam,Rabi,4.37,Yes,No,17143,830.93,33.8,1840.99,25,Higher Secondary,3823
+345,Pooja,39,Female,Mumbai,Vegetables,61.28,Flood,Clay,Zaid,8.83,No,Yes,9990,1227.72,21.96,1217.97,9,Postgraduate,686
+346,Preeti,58,Female,Pune,Wheat,65.36,Manual,Loam,Rabi,5.0,Yes,No,17839,669.07,30.02,708.8,26,Secondary,2371
+347,Sunita,41,Female,Pune,Maize,30.07,Flood,Sandy,Kharif,6.31,Yes,No,14664,320.41,31.3,581.04,34,Higher Secondary,368
+348,Anita,36,Female,Kolkata,Pulses,1.86,Drip,Loam,Kharif,6.47,Yes,No,9956,1113.0,32.41,1723.75,24,Higher Secondary,4493
+349,Rahul,31,Male,Pune,Fruits,51.76,Sprinkler,Silt,Zaid,4.29,No,Yes,2194,1153.58,24.94,565.79,7,Postgraduate,4386
+350,Preeti,55,Male,Ranchi,Maize,50.46,Manual,Clay,Zaid,1.32,Yes,Yes,12335,949.45,25.33,736.16,26,Primary,4055
+351,Suresh,41,Female,Bhopal,Wheat,20.16,Manual,Clay,Rabi,3.64,Yes,No,4098,292.61,27.59,807.93,14,Higher Secondary,92
+352,Suresh,53,Female,Bhopal,Pulses,74.97,Flood,Clay,Kharif,8.56,Yes,Yes,6618,301.69,17.87,914.7,14,Secondary,1600
+353,Meera,33,Female,Patna,Fruits,79.09,Manual,Silt,Kharif,2.32,Yes,No,10886,214.24,24.09,924.75,33,Postgraduate,4980
+354,Preeti,51,Male,Lucknow,Wheat,68.58,Flood,Loam,Rabi,8.26,Yes,Yes,11800,1403.23,30.02,302.76,1,Postgraduate,4669
+355,Pooja,45,Female,Chennai,Sugarcane,59.74,Drip,Silt,Zaid,1.31,Yes,Yes,16485,931.36,19.63,1573.49,25,Primary,3732
+356,Preeti,38,Female,Delhi,Fruits,6.17,Drip,Loam,Zaid,9.91,No,Yes,19054,809.52,33.66,1780.15,17,Primary,1156
+357,Anita,49,Male,Chennai,Pulses,81.32,Drip,Loam,Zaid,4.73,Yes,No,2332,738.18,28.47,929.52,11,Graduate,2995
+358,Ramesh,45,Male,Jaipur,Maize,21.7,Drip,Loam,Zaid,6.35,No,Yes,12857,817.19,28.53,544.54,9,Secondary,4509
+359,Meera,39,Female,Lucknow,Rice,46.97,Manual,Loam,Zaid,7.41,No,No,11349,445.99,34.32,1475.63,22,Higher Secondary,4278
+360,Pooja,35,Male,Delhi,Vegetables,62.34,Manual,Sandy,Zaid,2.53,No,Yes,13317,890.29,29.21,1940.14,5,Postgraduate,3225
+361,Meera,50,Female,Mumbai,Wheat,65.16,Manual,Silt,Kharif,3.72,No,Yes,3266,1076.94,33.68,1728.46,27,Primary,1797
+362,Suresh,40,Female,Jaipur,Cotton,98.7,Manual,Silt,Kharif,2.9,Yes,Yes,4409,380.66,15.3,352.26,31,Graduate,4125
+363,Suresh,27,Female,Pune,Pulses,66.03,Flood,Clay,Zaid,6.54,Yes,No,11957,482.22,18.56,317.78,16,Graduate,341
+364,Sunita,57,Female,Chennai,Wheat,88.52,Flood,Silt,Zaid,6.81,Yes,No,2866,1141.44,26.98,1151.96,34,Graduate,4409
+365,Meera,56,Female,Mumbai,Maize,65.18,Manual,Loam,Rabi,7.51,No,No,17775,882.41,34.31,649.44,21,Primary,3967
+366,Suresh,31,Female,Bhopal,Pulses,40.21,Flood,Sandy,Zaid,7.84,No,No,17108,1140.11,33.5,828.42,26,Higher Secondary,1449
+367,Rahul,50,Female,Pune,Wheat,92.61,Drip,Clay,Kharif,5.2,No,Yes,3258,330.23,19.81,805.35,33,Secondary,1169
+368,Anita,55,Male,Kolkata,Maize,46.41,Sprinkler,Silt,Kharif,2.61,Yes,Yes,13644,210.62,20.12,1749.21,30,Postgraduate,926
+369,Preeti,44,Female,Jaipur,Vegetables,56.01,Drip,Clay,Kharif,6.64,Yes,No,5113,566.14,38.43,1475.88,21,Graduate,2909
+370,Ajay,47,Female,Delhi,Cotton,40.55,Flood,Sandy,Rabi,5.03,Yes,Yes,5687,467.01,29.44,1691.85,5,Secondary,3661
+371,Rahul,49,Female,Kolkata,Fruits,90.83,Sprinkler,Silt,Zaid,1.04,No,No,16642,1098.78,25.75,1261.88,10,Secondary,1961
+372,Meera,47,Female,Lucknow,Sugarcane,50.75,Flood,Silt,Kharif,5.06,Yes,Yes,18784,1177.55,34.42,170.31,6,Postgraduate,3291
+373,Meera,47,Female,Kolkata,Wheat,36.09,Manual,Clay,Rabi,6.52,No,No,10703,1429.13,17.62,1416.35,29,Secondary,1387
+374,Rahul,53,Male,Chennai,Rice,80.86,Manual,Sandy,Kharif,1.14,No,Yes,2871,444.59,34.48,660.6,11,Secondary,1782
+375,Pooja,29,Male,Jaipur,Sugarcane,63.46,Flood,Loam,Zaid,0.67,No,Yes,2442,246.53,24.16,1119.35,19,Higher Secondary,1470
+376,Sunita,31,Female,Kolkata,Maize,71.54,Drip,Loam,Zaid,3.28,No,Yes,13896,254.48,16.18,1574.34,22,Graduate,1889
+377,Meera,42,Male,Bhopal,Sugarcane,92.65,Manual,Clay,Rabi,5.36,No,No,18194,528.58,39.65,724.92,14,Higher Secondary,365
+378,Rohit,53,Male,Mumbai,Sugarcane,86.97,Flood,Sandy,Kharif,4.3,Yes,Yes,13968,1448.99,20.73,1712.25,21,Higher Secondary,4444
+379,Rohit,31,Male,Bhopal,Vegetables,77.86,Flood,Loam,Kharif,4.25,Yes,No,12904,769.58,18.27,1906.09,12,Higher Secondary,3728
+380,Meera,55,Female,Patna,Sugarcane,17.42,Sprinkler,Loam,Zaid,6.81,Yes,Yes,8073,772.97,32.54,1438.92,31,Primary,2712
+381,Ajay,30,Female,Patna,Pulses,98.93,Manual,Loam,Rabi,8.57,Yes,No,9517,1003.41,29.74,954.52,24,Postgraduate,4392
+382,Meera,51,Male,Patna,Wheat,21.09,Drip,Clay,Kharif,7.18,Yes,Yes,12937,816.61,30.57,882.7,8,Postgraduate,4923
+383,Preeti,59,Male,Ranchi,Rice,79.0,Manual,Silt,Zaid,9.62,Yes,No,4208,1238.5,30.09,1012.47,33,Secondary,391
+384,Rohit,43,Female,Lucknow,Vegetables,90.56,Drip,Loam,Kharif,9.9,Yes,No,13851,1006.16,25.49,1648.85,8,Postgraduate,1559
+385,Sunita,55,Male,Chennai,Rice,32.38,Sprinkler,Clay,Zaid,4.72,No,Yes,4160,1493.72,17.18,1815.32,28,Higher Secondary,4490
+386,Ramesh,39,Female,Delhi,Sugarcane,56.06,Flood,Silt,Rabi,9.43,Yes,Yes,18893,421.15,15.78,199.36,21,Postgraduate,3820
+387,Preeti,34,Female,Ranchi,Sugarcane,20.7,Manual,Clay,Zaid,2.11,Yes,Yes,3072,1281.85,33.33,412.99,21,Secondary,558
+388,Anita,32,Female,Ranchi,Vegetables,22.96,Sprinkler,Loam,Kharif,3.8,Yes,No,6505,1109.23,18.78,299.07,1,Secondary,1871
+389,Pooja,32,Male,Bhopal,Pulses,40.37,Drip,Sandy,Zaid,4.94,No,Yes,14086,392.61,36.72,1802.28,10,Primary,3653
+390,Rohit,37,Male,Chennai,Rice,79.77,Drip,Loam,Kharif,6.33,Yes,No,12604,945.98,22.65,1985.49,4,Higher Secondary,982
+391,Ramesh,31,Female,Ranchi,Vegetables,63.51,Sprinkler,Sandy,Kharif,9.74,No,Yes,5599,502.57,36.59,1178.77,26,Graduate,705
+392,Ramesh,45,Female,Patna,Rice,65.36,Sprinkler,Clay,Kharif,6.55,Yes,Yes,7768,1068.24,16.57,1945.78,14,Postgraduate,4613
+393,Rahul,48,Male,Patna,Vegetables,25.22,Drip,Silt,Rabi,6.89,No,No,11453,238.3,22.9,1348.4,33,Primary,3026
+394,Ramesh,57,Male,Delhi,Maize,11.7,Flood,Sandy,Zaid,7.55,Yes,No,15653,902.39,38.58,1887.41,26,Higher Secondary,3906
+395,Suresh,45,Female,Jaipur,Rice,23.03,Drip,Loam,Zaid,4.61,No,Yes,19680,1071.92,32.25,1282.17,2,Postgraduate,4825
+396,Rahul,47,Female,Pune,Maize,22.07,Drip,Sandy,Kharif,8.67,No,Yes,10991,1109.31,20.29,226.31,35,Postgraduate,3303
+397,Ramesh,57,Male,Chennai,Sugarcane,86.97,Manual,Clay,Zaid,9.1,Yes,Yes,3394,649.98,15.3,1570.9,13,Secondary,1321
+398,Meera,33,Female,Ranchi,Wheat,48.67,Manual,Silt,Rabi,8.86,No,Yes,18875,1463.82,31.14,183.06,8,Higher Secondary,1863
+399,Ramesh,38,Female,Bhopal,Maize,90.11,Manual,Sandy,Zaid,2.45,No,No,16000,786.13,15.61,551.09,16,Secondary,786
+400,Rahul,46,Male,Lucknow,Wheat,73.05,Sprinkler,Clay,Kharif,1.74,No,Yes,18524,1172.65,22.35,944.78,24,Postgraduate,287
+401,Sunita,27,Female,Pune,Fruits,11.53,Manual,Loam,Kharif,3.48,Yes,Yes,15148,1449.57,28.17,576.18,25,Postgraduate,781
+402,Anita,60,Male,Ranchi,Maize,36.67,Sprinkler,Silt,Rabi,5.33,Yes,Yes,7968,944.43,15.91,1168.76,19,Secondary,3366
+403,Ajay,40,Male,Pune,Cotton,41.61,Manual,Sandy,Rabi,5.72,Yes,No,10616,824.13,38.26,835.04,8,Primary,2941
+404,Anita,53,Female,Bhopal,Wheat,29.59,Manual,Sandy,Kharif,7.65,No,No,6465,729.21,31.17,1699.26,13,Primary,2897
+405,Suresh,56,Female,Lucknow,Sugarcane,23.05,Drip,Sandy,Zaid,5.0,No,Yes,11099,934.43,15.06,1639.47,13,Secondary,4480
+406,Meera,51,Male,Ranchi,Vegetables,47.92,Manual,Silt,Rabi,7.81,Yes,Yes,18482,247.78,18.83,400.6,17,Graduate,3229
+407,Sunita,30,Female,Patna,Fruits,69.68,Manual,Loam,Zaid,1.21,No,No,12618,1218.73,30.49,1090.82,33,Graduate,2196
+408,Rahul,35,Female,Jaipur,Fruits,83.24,Manual,Sandy,Zaid,2.65,No,No,15880,1313.8,38.06,1699.79,32,Postgraduate,770
+409,Pooja,27,Male,Patna,Cotton,26.98,Sprinkler,Sandy,Rabi,6.68,No,Yes,12655,384.47,23.31,1187.67,3,Higher Secondary,1884
+410,Ramesh,31,Female,Lucknow,Cotton,4.44,Sprinkler,Clay,Zaid,6.45,No,Yes,16050,219.44,26.09,1964.29,13,Higher Secondary,3128
+411,Pooja,30,Male,Delhi,Fruits,95.7,Drip,Clay,Zaid,8.39,No,No,7289,1128.46,21.99,144.54,15,Postgraduate,490
+412,Rohit,41,Male,Patna,Rice,27.55,Drip,Loam,Zaid,6.22,Yes,No,12927,1417.45,36.88,682.47,27,Postgraduate,3707
+413,Anita,43,Female,Bhopal,Cotton,47.6,Manual,Clay,Kharif,4.16,No,No,11136,373.13,17.73,1385.88,13,Graduate,2677
+414,Preeti,49,Female,Bhopal,Maize,56.95,Drip,Loam,Rabi,6.15,No,Yes,17744,874.82,30.46,1998.38,35,Postgraduate,4080
+415,Sunita,50,Male,Kolkata,Vegetables,94.81,Sprinkler,Sandy,Zaid,1.62,No,Yes,15200,556.69,16.9,1932.4,6,Primary,3247
+416,Preeti,27,Female,Delhi,Cotton,69.19,Drip,Clay,Zaid,8.01,Yes,No,5734,1484.84,37.97,626.57,17,Higher Secondary,4011
+417,Rohit,48,Male,Kolkata,Rice,39.32,Drip,Silt,Zaid,4.36,Yes,Yes,19543,680.06,38.08,1861.16,23,Primary,77
+418,Pooja,52,Female,Delhi,Vegetables,38.42,Manual,Clay,Zaid,2.52,No,No,19822,790.23,24.52,355.4,6,Postgraduate,867
+419,Meera,50,Female,Kolkata,Rice,56.99,Manual,Clay,Kharif,0.95,No,No,5515,753.32,39.54,1000.28,22,Postgraduate,1644
+420,Rahul,57,Male,Chennai,Fruits,87.81,Flood,Clay,Zaid,2.78,No,Yes,2439,674.53,39.03,1053.82,12,Graduate,3334
+421,Meera,39,Male,Pune,Wheat,65.3,Manual,Clay,Rabi,0.57,Yes,No,18275,1102.2,34.42,668.2,1,Postgraduate,1372
+422,Anita,48,Male,Bhopal,Sugarcane,36.57,Flood,Sandy,Zaid,3.28,No,No,3504,1490.34,15.74,1207.31,23,Graduate,4769
+423,Preeti,46,Male,Lucknow,Cotton,18.52,Manual,Sandy,Rabi,6.64,Yes,No,8307,1403.63,15.39,103.42,15,Primary,365
+424,Meera,45,Male,Lucknow,Maize,71.68,Drip,Loam,Kharif,2.26,No,No,6718,1160.92,20.41,1123.81,9,Primary,4310
+425,Meera,50,Female,Pune,Fruits,50.28,Manual,Sandy,Kharif,4.87,No,Yes,19348,267.92,22.28,926.36,7,Primary,2925
+426,Suresh,43,Male,Ranchi,Fruits,32.6,Flood,Clay,Rabi,2.73,Yes,Yes,17957,1460.22,17.23,599.14,27,Graduate,573
+427,Pooja,52,Male,Delhi,Vegetables,35.48,Sprinkler,Loam,Zaid,6.84,Yes,No,11769,373.08,31.16,1914.33,16,Primary,3130
+428,Preeti,31,Female,Ranchi,Sugarcane,11.06,Manual,Sandy,Kharif,5.2,No,No,6391,1352.85,34.9,1836.24,5,Primary,4731
+429,Sunita,56,Male,Chennai,Maize,41.56,Manual,Clay,Kharif,4.1,Yes,No,7385,593.39,21.17,1832.89,14,Higher Secondary,2014
+430,Rahul,40,Male,Jaipur,Pulses,36.23,Sprinkler,Silt,Kharif,9.31,Yes,No,7415,1398.24,36.98,1699.15,5,Secondary,4707
+431,Suresh,31,Female,Mumbai,Fruits,37.88,Sprinkler,Loam,Kharif,0.92,No,No,14272,314.63,16.09,1067.35,4,Higher Secondary,1891
+432,Ajay,59,Male,Chennai,Rice,68.85,Flood,Silt,Kharif,0.62,Yes,No,15212,1397.82,24.88,1239.8,10,Higher Secondary,4593
+433,Anita,52,Male,Lucknow,Pulses,96.54,Flood,Clay,Kharif,5.42,Yes,Yes,16799,1037.8,16.92,1187.85,11,Secondary,2213
+434,Meera,48,Female,Mumbai,Cotton,3.91,Drip,Sandy,Rabi,4.72,No,No,8352,680.28,32.51,289.89,14,Postgraduate,3781
+435,Anita,28,Male,Bhopal,Maize,42.65,Drip,Sandy,Kharif,4.68,No,No,13467,1300.27,34.26,1249.51,15,Secondary,1502
+436,Rohit,60,Female,Jaipur,Rice,64.67,Manual,Clay,Kharif,4.5,Yes,Yes,7147,242.54,25.53,1474.16,26,Secondary,2782
+437,Pooja,40,Female,Kolkata,Fruits,92.38,Drip,Sandy,Rabi,6.47,No,Yes,16746,256.37,29.99,1586.62,28,Graduate,1668
+438,Ramesh,51,Male,Patna,Rice,10.77,Flood,Clay,Kharif,9.89,Yes,Yes,14207,1428.21,17.95,390.01,25,Postgraduate,1679
+439,Anita,31,Male,Delhi,Sugarcane,29.79,Manual,Loam,Zaid,9.54,No,Yes,14533,1323.76,37.05,1374.03,13,Graduate,686
+440,Meera,48,Female,Jaipur,Wheat,41.17,Flood,Loam,Zaid,2.37,Yes,Yes,17742,1252.51,30.87,565.17,24,Postgraduate,2671
+441,Pooja,37,Female,Bhopal,Rice,62.12,Manual,Silt,Zaid,6.5,No,Yes,14988,890.2,31.55,861.55,27,Higher Secondary,195
+442,Preeti,33,Female,Ranchi,Vegetables,67.1,Drip,Loam,Kharif,3.18,No,Yes,18011,658.94,19.6,1583.68,29,Higher Secondary,1192
+443,Pooja,31,Male,Patna,Vegetables,51.07,Manual,Silt,Rabi,9.05,No,No,4376,783.76,27.35,623.06,28,Secondary,4441
+444,Sunita,37,Female,Bhopal,Maize,36.83,Manual,Loam,Kharif,8.39,Yes,No,4638,862.61,20.63,197.74,4,Secondary,2143
+445,Suresh,26,Female,Lucknow,Wheat,13.96,Sprinkler,Silt,Rabi,2.33,No,Yes,3288,1106.23,29.53,1273.18,13,Secondary,988
+446,Ajay,36,Female,Kolkata,Rice,45.12,Sprinkler,Clay,Zaid,5.59,No,No,8551,753.38,27.46,790.78,28,Higher Secondary,4184
+447,Sunita,59,Female,Pune,Maize,62.55,Sprinkler,Sandy,Zaid,8.6,Yes,Yes,7683,643.75,33.05,454.8,9,Higher Secondary,822
+448,Preeti,33,Male,Kolkata,Cotton,68.29,Sprinkler,Loam,Zaid,2.41,No,Yes,6731,780.41,28.16,1473.73,31,Higher Secondary,2742
+449,Meera,55,Female,Mumbai,Cotton,65.88,Sprinkler,Silt,Zaid,5.38,Yes,No,15519,309.75,37.13,965.74,17,Postgraduate,4840
+450,Ajay,52,Female,Lucknow,Rice,59.31,Drip,Clay,Kharif,3.92,No,No,11259,792.5,24.3,1722.08,9,Primary,2351
+451,Anita,53,Male,Mumbai,Sugarcane,18.16,Drip,Loam,Kharif,9.51,No,Yes,16270,1160.64,31.78,1914.59,12,Secondary,3258
+452,Meera,42,Male,Patna,Wheat,77.14,Drip,Loam,Kharif,1.64,Yes,Yes,4805,1301.94,18.63,917.0,22,Postgraduate,175
+453,Anita,25,Female,Patna,Maize,68.9,Drip,Silt,Kharif,4.29,Yes,Yes,2453,977.31,29.26,1507.29,6,Primary,1172
+454,Meera,36,Female,Delhi,Cotton,79.52,Sprinkler,Sandy,Zaid,7.9,Yes,No,16356,434.66,34.96,851.3,34,Postgraduate,1760
+455,Rohit,36,Male,Ranchi,Fruits,29.18,Flood,Loam,Kharif,8.41,No,No,2200,1006.34,15.0,291.7,32,Postgraduate,712
+456,Pooja,38,Male,Jaipur,Pulses,89.31,Sprinkler,Silt,Zaid,2.24,Yes,No,8621,1458.75,33.68,1759.91,26,Graduate,2903
+457,Ramesh,26,Male,Mumbai,Sugarcane,23.11,Flood,Loam,Rabi,3.8,Yes,No,16511,1147.15,32.14,649.74,11,Postgraduate,4594
+458,Sunita,50,Female,Mumbai,Fruits,4.44,Sprinkler,Sandy,Rabi,3.1,Yes,Yes,7400,1191.54,21.36,1099.25,24,Postgraduate,2219
+459,Sunita,58,Female,Jaipur,Wheat,92.03,Drip,Silt,Rabi,4.86,No,No,12451,1022.53,37.99,357.39,23,Primary,2171
+460,Preeti,31,Male,Mumbai,Rice,29.22,Manual,Silt,Rabi,5.58,Yes,No,19540,977.72,38.36,916.66,33,Secondary,599
+461,Rahul,39,Male,Patna,Vegetables,25.06,Drip,Loam,Zaid,0.6,No,Yes,18867,1140.05,20.61,964.28,28,Higher Secondary,3403
+462,Rohit,49,Female,Kolkata,Vegetables,55.69,Manual,Silt,Kharif,5.62,No,Yes,9699,378.11,38.21,610.67,15,Graduate,3140
+463,Preeti,32,Female,Chennai,Wheat,88.21,Flood,Sandy,Kharif,9.93,Yes,No,16115,590.92,37.22,1175.82,22,Higher Secondary,2424
+464,Preeti,50,Male,Jaipur,Sugarcane,70.26,Manual,Clay,Zaid,9.18,Yes,No,4000,281.95,17.66,897.52,9,Primary,870
+465,Ajay,55,Female,Mumbai,Fruits,6.72,Drip,Clay,Rabi,8.66,Yes,Yes,19499,310.97,21.81,1151.98,20,Postgraduate,2470
+466,Suresh,40,Female,Ranchi,Wheat,46.68,Drip,Loam,Rabi,1.8,No,No,4621,273.53,30.58,471.66,31,Secondary,3089
+467,Sunita,42,Female,Patna,Pulses,59.71,Manual,Silt,Kharif,3.29,Yes,No,15315,333.32,26.14,1911.75,18,Postgraduate,1064
+468,Suresh,30,Female,Bhopal,Rice,66.97,Flood,Silt,Kharif,6.82,Yes,No,10871,265.04,38.83,1569.72,19,Primary,3451
+469,Rahul,39,Male,Pune,Maize,96.97,Drip,Clay,Zaid,9.92,Yes,No,2389,238.55,32.39,1013.35,30,Higher Secondary,4102
+470,Anita,32,Male,Patna,Wheat,42.56,Drip,Clay,Zaid,1.06,Yes,No,15864,369.03,36.15,1533.25,13,Secondary,1923
+471,Sunita,45,Female,Mumbai,Cotton,27.86,Drip,Silt,Zaid,6.92,Yes,Yes,15280,966.67,37.42,1728.59,34,Primary,2924
+472,Suresh,37,Female,Kolkata,Fruits,16.05,Sprinkler,Silt,Zaid,3.61,No,No,9156,504.54,20.45,284.64,31,Secondary,283
+473,Ramesh,33,Female,Chennai,Pulses,10.58,Flood,Loam,Kharif,3.99,No,No,5116,1175.07,15.92,208.23,4,Secondary,1359
+474,Pooja,44,Female,Chennai,Sugarcane,39.2,Manual,Loam,Kharif,6.53,No,No,8979,478.02,25.7,208.46,3,Postgraduate,3288
+475,Anita,30,Male,Mumbai,Rice,19.1,Manual,Clay,Zaid,8.61,No,Yes,11705,1348.98,20.54,1080.09,32,Secondary,4809
+476,Rohit,26,Female,Ranchi,Rice,55.96,Flood,Loam,Rabi,8.92,No,No,9369,522.26,32.64,174.89,13,Postgraduate,3110
+477,Pooja,52,Male,Patna,Pulses,16.65,Sprinkler,Silt,Kharif,2.24,No,Yes,12493,1239.31,30.49,919.18,25,Higher Secondary,2332
+478,Suresh,29,Male,Pune,Rice,44.28,Manual,Clay,Rabi,3.66,No,Yes,4987,533.67,18.81,1598.78,13,Primary,1074
+479,Rahul,33,Male,Jaipur,Wheat,91.07,Manual,Clay,Kharif,8.02,No,Yes,16063,469.84,20.89,628.88,12,Graduate,4322
+480,Sunita,54,Male,Lucknow,Pulses,97.7,Flood,Sandy,Rabi,5.3,No,Yes,15723,508.19,23.73,224.76,30,Secondary,4268
+481,Ajay,27,Male,Chennai,Maize,51.14,Sprinkler,Loam,Zaid,6.09,Yes,No,11499,778.1,26.36,706.47,8,Primary,292
+482,Preeti,58,Male,Delhi,Vegetables,17.27,Drip,Loam,Rabi,6.29,No,Yes,18759,946.83,15.04,149.6,3,Postgraduate,2159
+483,Preeti,48,Female,Ranchi,Pulses,19.19,Sprinkler,Sandy,Rabi,2.27,No,Yes,10543,1433.5,32.99,295.3,16,Secondary,1943
+484,Sunita,54,Male,Delhi,Sugarcane,86.69,Sprinkler,Sandy,Kharif,0.83,Yes,No,2379,905.18,17.23,729.26,8,Higher Secondary,4272
+485,Rohit,44,Female,Kolkata,Fruits,67.47,Drip,Sandy,Kharif,8.11,Yes,No,15355,419.48,23.32,1386.93,8,Graduate,933
+486,Ajay,45,Female,Lucknow,Vegetables,91.57,Drip,Clay,Kharif,5.88,Yes,Yes,4868,961.94,26.16,1647.34,28,Graduate,3322
+487,Pooja,57,Male,Lucknow,Sugarcane,59.75,Drip,Silt,Kharif,6.88,Yes,Yes,4945,882.59,21.07,1349.71,33,Primary,4800
+488,Ajay,46,Female,Jaipur,Wheat,98.34,Manual,Sandy,Rabi,7.37,No,Yes,11479,949.62,29.22,1178.4,1,Primary,4004
+489,Rahul,25,Male,Jaipur,Cotton,68.65,Flood,Sandy,Kharif,8.02,No,Yes,18193,293.33,28.26,1310.85,21,Higher Secondary,2342
+490,Anita,54,Male,Mumbai,Cotton,42.15,Manual,Clay,Rabi,6.77,No,No,9406,1101.23,34.7,1789.72,8,Secondary,3199
+491,Rohit,41,Male,Bhopal,Pulses,42.56,Drip,Sandy,Zaid,2.29,No,No,19964,211.17,18.32,618.92,1,Graduate,1627
+492,Meera,30,Male,Mumbai,Rice,61.93,Drip,Clay,Kharif,2.25,No,Yes,18739,1319.69,35.32,1423.76,22,Primary,39
+493,Pooja,44,Male,Jaipur,Maize,51.44,Sprinkler,Clay,Kharif,1.71,Yes,Yes,7205,920.74,32.7,156.73,7,Primary,4215
+494,Preeti,37,Female,Lucknow,Rice,38.06,Sprinkler,Silt,Rabi,9.5,Yes,Yes,16985,547.6,26.56,708.55,22,Higher Secondary,796
+495,Rahul,46,Female,Kolkata,Fruits,77.63,Drip,Loam,Zaid,6.59,Yes,Yes,4632,906.02,18.21,339.22,10,Higher Secondary,166
+496,Rahul,29,Male,Chennai,Fruits,67.05,Sprinkler,Loam,Rabi,2.29,Yes,Yes,4158,763.56,35.93,1351.46,14,Graduate,4894
+497,Preeti,25,Male,Bhopal,Maize,99.68,Flood,Silt,Kharif,3.34,No,No,5470,1114.53,30.68,1264.81,18,Secondary,4536
+498,Meera,51,Male,Jaipur,Wheat,22.76,Sprinkler,Sandy,Kharif,2.69,Yes,Yes,18039,1105.33,31.76,1604.23,23,Postgraduate,1047
+499,Ajay,40,Female,Pune,Vegetables,23.7,Sprinkler,Loam,Zaid,8.44,Yes,Yes,6615,343.61,28.14,287.58,18,Higher Secondary,4943
+500,Meera,58,Female,Lucknow,Pulses,80.1,Drip,Clay,Kharif,8.26,Yes,Yes,19576,1303.65,18.84,956.36,16,Postgraduate,1764
